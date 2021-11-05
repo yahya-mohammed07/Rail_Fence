@@ -1,0 +1,16 @@
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.exe
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.deps.json
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.runtimeconfig.json
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.runtimeconfig.dev.json
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.dll
+C:\Users\dell\source\repos\Rail_Fence\bin\Debug\netcoreapp3.1\Rail_Fence.pdb
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.Form1.resources
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.AssemblyInfo.cs
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.dll
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.pdb
+C:\Users\dell\source\repos\Rail_Fence\obj\Debug\netcoreapp3.1\Rail_Fence.genruntimeconfig.cache
