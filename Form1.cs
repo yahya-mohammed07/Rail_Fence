@@ -30,7 +30,7 @@ namespace Rail_Fence
 
     private void Convert_Click(object sender, EventArgs e)
     {
-      int key = int.Parse(Key.Text);
+      int key = int.TryParse(Key.Text, out key) ? key : 2;
       string temp = Plain_text.Text;
       //
       if (Reverse.Checked)
@@ -95,7 +95,7 @@ namespace Rail_Fence
 
     private void Convert_cipher_Click(object sender, EventArgs e)
     {
-      int key = int.Parse(Key_cipher.Text);
+      int key = int.TryParse(Key.Text, out key) ? key : 2;
       string temp = Ciphered_text.Text;
       //
       if (Reverse.Checked)
