@@ -18,10 +18,31 @@ namespace Rail_Fence
       InitializeComponent();
     }
 
+    public static string ReverseXor(string s)
+    {
+      if (s == null) return null;
+      char[] charArray = s.ToCharArray();
+      int len = s.Length - 1;
+
+      for (int i = 0; i < len; i++, len--)
+      {
+        charArray[i] ^= charArray[len];
+        charArray[len] ^= charArray[i];
+        charArray[i] ^= charArray[len];
+      }
+
+      return new string(charArray);
+    }
+
     private void Convert_Click(object sender, EventArgs e)
     {
       int key = int.Parse(Key.Text);
       string temp = Plain_text.Text;
+      //
+      if ( Reverse.Checked )
+      {
+        temp = ReverseXor(temp);
+      }
       //
       if (Remove_punctuation.Checked)
       {
@@ -75,14 +96,18 @@ namespace Rail_Fence
           }
         }
       }
-      Cipher_text.Text = output;
-      //
+      Cipher_text.Text = Reverse.Checked ? ReverseXor(output) : output;
     }
 
     private void Convert_cipher_Click(object sender, EventArgs e)
     {
       int key = int.Parse(Key_cipher.Text);
       string temp = Ciphered_text.Text;
+      //
+      if (Reverse.Checked)
+      {
+        temp = ReverseXor(temp);
+      }
       if (Remove_punctuation.Checked)
       {
         temp = new(temp.Where(
@@ -149,7 +174,7 @@ namespace Rail_Fence
           direc = 1;
         }
       }
-      Plain_text_org.Text = output;
+      Plain_text_org.Text = Reverse.Checked ? ReverseXor(output) : output;
     }
   }
 }
