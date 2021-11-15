@@ -90,7 +90,7 @@ namespace Rail_Fence
           }
         }
       }
-      Cipher_text.Text = Reverse.Checked ? ReverseXor(output) : output;
+      Cipher_text.Text = output;
     }
 
     private void Convert_cipher_Click(object sender, EventArgs e)
@@ -100,6 +100,7 @@ namespace Rail_Fence
       //
       if (Reverse.Checked)
       {
+        temp = ReverseXor(temp);
         temp = ReverseXor(temp);
       }
       if (Remove_punctuation.Checked)
